@@ -85,7 +85,7 @@ If I have not failed you all by the time you're reading this, https://hacksu.com
 
 It probably doesn't answer your question in a straightforward way. This is because we have one more step to perform called [prompt tuning](https://developer.nvidia.com/blog/adapting-p-tuning-to-solve-non-english-downstream-tasks/). 
 
-Prompt tuning is the final step in training an AI chat bot that behaves a little more like a Turing Machine. It involves adding additional tokens to the input in hopes that the model will predict text that looks more like a response to a prompt and less like a regurgitated Wikipadia article. We can optimize prompts by inserting different tokesn depending on the task we'd like to accomplish using a lookup table. 
+Prompt tuning is the final step in training an AI chat bot that behaves a little more like a Turing Machine. It involves adding additional tokens to the input in hopes that the model will predict text that looks more like a response to a prompt you would see from a human. We can optimize prompts by inserting different tokesn depending on the task we'd like to accomplish using a lookup table. 
 
 Supposedly this makes the model more accurate with less resources. 
 
